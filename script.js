@@ -4,9 +4,6 @@ let init = () => {
     let _RedCol = document.querySelector(`.specialRed`);
     let cssRedColor;
 
-    let mainAction = () => {
-
-    }
     let hideDropDown = (index) => {
         dropoutBtn[index].style.display = `none`;
         mainBtn[index].style.backgroundColor = `transparent`;
